@@ -2,15 +2,15 @@
   "name": "pdx-beer-data-base",
   "version": "1.0.0",
   "description": "pdx-beer-data-base",
-  "main": "app.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "lint": "eslint .",
     "test": "exit 0",
-    "start": "node server.js",
-    "start:watch": "nodemon server.js",
+    "start": "node app.js",
+    "start:watch": "nodemon index.js",
     "create-tables": "node data/create-tables.js",
     "drop-tables": "node data/drop-tables.js",
     "load-seed-data": "node data/load-seed-data.js",

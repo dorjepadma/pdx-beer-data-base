@@ -1,59 +1,58 @@
 module.exports = [
     {
-        brewery: 'Mark Twain Brewing Company'
         name: 'Wee bit foggy',
+        brewery: 'Mark Twain Brewing Company',
         style: 'Scotch Ale',
         ABV: 9.8,
         is_season: true,
-        url: "",
+        url: 'data/images/IRA.png',
     },
     {
-        brewery: 'Burnt Mill Brewery/BOXCAR'
         name: '10,000 Days',
+        brewery: 'Burnt Mill Brewery/BOXCAR',
         style: 'American Pale Ale',
         ABV: 3.6,
         is_season: false,
-        url: "",
+        url: 'data/images/ipa.png',
     },
     {
-        brewery: 
-        "Crabby Larry's"
-        name: "Bomb's Away",
-        style: "Double IPA",
+        name: 'Bombs Away',
+        brewery: 'Crabby Larrys',
+        style: 'Double IPA',
         ABV: 11.5,
         is_season: true,
-        url: "",
+        url: 'data/images/dunkel.png',
     },
     {
-        brewery:"Beerbliotek"
-        name: "Moment of Tranquility",
-        style: "Hazy",
+        name: 'Moment of Tranquility',
+        brewery:'Beerbliotek',
+        style: 'Hazy',
         ABV: 7,
         is_season: false,
-        url: "",
+        url: 'data/images/lager.png',
     },
     {
-        brewery: "Southern Tier Brewing Company"
-        name: "2x presso",
-        style: "Stout",
+        name: '2x presso',
+        brewery: 'Southern Tier Brewing Company',
+        style: 'Stout',
         ABV: 7.5,
         is_season: true,
-        url: "",
+        url: 'data/images/pale ale.png',
     },
     {
-        brewery: "Clown Shoes Beer"
-        name: "Archdruid",
-        style: "Imperial Red Ale",
+        name: 'Archdruid',
+        brewery: 'Clown Shoes Beer',
+        style: 'Imperial Red Ale',
         ABV: 9,
         is_season: true,
-        url: "",
+        url: 'data/images/porter.png',
     },
     {
-        brewery: "Wild Woods Brewery"
-        name: "Agave Lime Mexican Lager",
-        style: "American Lager",
+        name: 'Agave Lime Mexican Lager',
+        brewery: 'Wild Woods Brewery',
+        style: 'American Lager',
         ABV: 5.5,
         is_season: false,
-        url: "",
+        url: 'data/images/stout.png'
     }
 ];
