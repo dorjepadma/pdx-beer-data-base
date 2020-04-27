@@ -1,2 +1,2 @@
-# in-class-sql-demo
-in-class-sql-demo
+# pdx-beer-data-base
+pdx-beer-data-base
